@@ -19,7 +19,7 @@ const Navbar = ({ searchText }) => {
         <div className='flex justify-between items-center h-full'>
           <p className='font-semibold text-xl'>Image Gallery</p>
           <form onSubmit={onSubmit} className='hidden sm:w-[50%] sm:h-full sm:flex sm:items-center'>
-            <input onChange={e => setText(e.target.value)} type='text' className='w-full h-[80%] rounded border-2 border-gray-200 leading-tight placeholder:pl-2 placeholder:text-lg focus:outline-none focus:border-[#FAD02C]' placeholder='search...'></input>
+            <input onChange={e => setText(e.target.value)} type='text' className='w-full  px-3 h-[80%] rounded border-2 border-gray-200 leading-tight  placeholder:text-lg focus:outline-none focus:border-[#FAD02C]' placeholder='search...'></input>
             <button className='bg-[#FAD02C] h-[75%] w-[100px] rounded font-semibold'>Search</button>
           </form>
           <ul className='hidden lg:flex justify-between'>

@@ -6,8 +6,8 @@ const ImageCard = ({ image }) => {
 
 
   return (
-    <div className="max-w-lg rounded overflow-hidden shadow-2xl bg-[#E9EAEC]">
-      <a className='cursor-pointer' href={image.pageURL}><img className="w-full" src={image.webformatURL} alt=""></img></a>
+    <div className="max-w-lg rounded overflow-hidden shadow-2xl bg-[#E9EAEC] h-[500px]">
+      <a className='cursor-pointer ' href={image.pageURL}><img className="w-full h-[50%] object-cover" src={image.webformatURL} alt=""></img></a>
       <div className="px-6 py-4 text-[#333652]">
         <div className="font-bold  text-xl mb-2">Photo By {image.user}</div>
         <ul>
