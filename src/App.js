@@ -35,7 +35,7 @@ function App() {
 
         {isLoading 
           ? 
-          <h1 className="text-6xl text-center mx-auto mt-32 ">
+          <h1 className="text-6xl text-center mx-auto mt-32 h-screen ">
             Loading ...
           </h1> 
           :
